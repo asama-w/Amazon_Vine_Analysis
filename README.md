@@ -8,7 +8,7 @@ To analyze the Amazon reviews of the product, of which in this project is the da
 ### Resources
 + **Languages:** PySpark, SQL
 + **Cloud-based notebook:** Google Colaboratory (Google Colab Notebook)
-+ **Database platform:** Amazon Web Service(AWS)-RDS, PostgresSQL (pgAdmin)
++ **Database platform:** Amazon Web Service (AWS)-RDS, PostgresSQL (pgAdmin)
 + **Raw Dataset:** Luggage's review dataset from [Amazon Product Review Datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
 
 
@@ -21,8 +21,8 @@ To analyze the Amazon reviews of the product, of which in this project is the da
 ### 2. Bias of Vine Reviews Analysis (Deliverable 2)
 + **Script:** [Vine_Review_Analysis.ipynb](https://github.com/asama-w/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) 
 + There are 2 types of the Amazon product's reviews: Vine, and Non-Vine:
-	+ Vine (Paid): reviews written by the members of the paid Amazon Vine program, whose products are sent by the manufacturers in turn for publishing a review.
-	+ Non-Vine (Unpaid): reviews written by other customers who are not a part of the program.
+	+ **Vine (Paid):** reviews written by the members of the paid Amazon Vine program, whose products are sent by the manufacturers in turn for publishing a review.
+	+ **Non-Vine (Unpaid):** reviews written by other customers who are not a part of the program.
 + To determine the trends of the vine reviews, and non-vine reviews, the reviews in the above transformed dataset (deliverable 1) is filtered before being analyzed by the following conditions to select reviews that are more likely helpful:
 	+ Total votes count is equal to or greater than 20.
 	+ Percentage of helpful votes is equal to or greater than 50.
@@ -32,9 +32,9 @@ To analyze the Amazon reviews of the product, of which in this project is the da
 The following image shows the summary table of the review, categorized by Vine and Non-Vine type.
 <img src= https://github.com/asama-w/Amazon_Vine_Analysis/blob/main/Additional_images/review_summary.png width="90%" height="90%">
 
-+ There 21 reviews which are from vine program (paid), and 6,690 reviews which are non-vine (unpaid).
-+ 10 out of 21 or 47.62% of the total vine reviews are the 5-star reviews.
-+ 3,448 out of 6,690 reviews or 51.52% of the total non-vine reviews are the 5-star reviews.
++ There the total of 21 reviews which are from vine program (paid), and 6,690 reviews which are non-vine (unpaid).
++ **Vine (Paid)**: 10 out of 21 reviews or **47.62%** of the total vine reviews are the 5-star reviews.
++ **Non-Vine (Unpaid):** 3,448 out of 6,690 reviews or **51.52%** of the total non-vine reviews are the 5-star reviews.
 
 
 ## Analysis Summary
