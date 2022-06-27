@@ -28,6 +28,7 @@ To analyze the Amazon reviews of the product, of which in this project is the da
 	+ Percentage of helpful votes is equal to or greater than 50.
 + This analysis of vine review favourable trend is performed using PySpark on Google Colab Notebook. 
 
+#### Results
 The following image shows the summary table of the review, categorized by Vine and Non-Vine type.
 <img src= https://github.com/asama-w/Amazon_Vine_Analysis/blob/main/Additional_images/review_summary.png width="90%" height="90%">
 
