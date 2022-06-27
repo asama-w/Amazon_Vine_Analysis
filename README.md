@@ -26,7 +26,7 @@ To analyze the Amazon reviews of the product, of which in this project is the da
 + To determine the trends of the vine reviews, and non-vine reviews, the reviews in the above transformed dataset (deliverable 1) is filtered before being analyzed by the following conditions to select reviews that are more likely helpful:
 	+ Total votes count is equal to or greater than 20.
 	+ Percentage of helpful votes is equal to or greater than 50.
-+ The vine review favourable trend analysis is performed using PySpark on Google Colab Notebook. 
++ This analysis of vine review favourable trend is performed using PySpark on Google Colab Notebook. 
 
 The following image shows the summary table of the review, categorized by Vine and Non-Vine type.
 <img src= https://github.com/asama-w/Amazon_Vine_Analysis/blob/main/Additional_images/review_summary.png width="90%" height="90%">
